@@ -8,7 +8,7 @@ function Home() {
         <div className="column">
           <h1>My Portfolio</h1>
           <p className="intro">
-            welcome to my React based portfolio, this is my first attempt at using class based React. Here you will find all of my previous projects that i have worked and practiced on as well as any of my social links so that you can contact/follow my work.
+            welcome to my React based portfolio, this is my first attempt at using class based React. Here you will find all of my previous projects that i have worked on and practiced on as well as any of my social links so that you can contact/follow my work.
           </p>
           </div>
       </div>
