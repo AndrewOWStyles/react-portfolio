@@ -16,7 +16,7 @@ function App() {
         <div>
           <NavTabs/>
         </div>
-        <div>
+        <div className='main-pages'>
           <Routes >
             {/* Define routes using the Route component to render different page components at different paths */}
             {/* Define a default route that will render the Home component */}
@@ -24,7 +24,7 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="blog" element={<Blog />} />
             {/* Define a route that will have descendant routes */}
-            <Route path="contact/*" element={<Contact />} />
+            <Route path="contact" element={<Contact />} />
           </Routes>
         </div>
       </div>

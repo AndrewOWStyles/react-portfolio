@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import './styles/navTabs.css'
+import './styles/navTabs.css';
 
 function NavTabs() {
+
   return (
-    <div className='navDiv'>
+    <div className="navDiv">
       <ul className="navTabs">
         <li className="nav-item">
           <NavLink
@@ -46,16 +47,6 @@ function NavTabs() {
             }
           >
             Contact
-          </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink
-            to="contact/learn"
-            className={({ isActive }) =>
-              isActive ? 'nav-link active' : 'nav-link'
-            }
-          >
-            Learn
           </NavLink>
         </li>
       </ul>
