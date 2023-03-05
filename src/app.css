@@ -1,0 +1,11 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Define the columns: 1fr for the navigation tabs, 3fr for the routes */
+    height: 100vh;
+  }
