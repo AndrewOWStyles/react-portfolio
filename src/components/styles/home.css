@@ -1,7 +1,6 @@
 h1 {
     text-align: center;
     padding: 1.25rem;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 6rem;
 }
 
@@ -32,7 +31,6 @@ img {
 }
 
 .intro {
-    font-family: 'Courier New', Courier, monospace;
     font-size: 1.25rem;
     width: 75%;
 }
